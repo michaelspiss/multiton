@@ -1,0 +1,29 @@
+{
+    "name": "michaelspiss/multiton",
+    "description": "A trait to implement the Multiton design pattern without any dependencies.",
+    "minimum-stability": "stable",
+    "keywords": ["multiton", "design-pattern", "pattern"],
+    "homepage": "https://github.com/michaelspiss/multiton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Spiss"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichaelSpiss\\DesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MichaelSpiss\\DesignPatterns\\Tests\\": "tests/"
+        }
+    }
+}

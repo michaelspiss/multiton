@@ -1,0 +1,7 @@
+# Ignore IDE files
+.idea/
+
+# ignore composer packages
+vendor/
+
+/build/
