@@ -13,10 +13,11 @@ trait Multiton {
      * @return Multiton
      */
     final public static function getInstance($identifier) {
-        if(!isset(self::$_instances[$identifier])) {
-            self::$_instances[$identifier] = new self($identifier);
+        $class_name = get_called_class();
+        if(!isset(self::$_instances[$class_name][$identifier])) {
+            self::$_instances[$class_name][$identifier] = new $class_name($identifier);
         }
-        return self::$_instances[$identifier];
+        return self::$_instances[$class_name][$identifier];
     }
 
     /**
