@@ -10,7 +10,7 @@ trait Multiton {
 
     /**
      * @param $identifier
-     * @return Multiton
+     * @return static
      */
     final public static function getInstance($identifier) {
         $class_name = get_called_class();
