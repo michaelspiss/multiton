@@ -35,8 +35,5 @@ instantiations via the ```new``` operator.
 ## PHP Requirements
 * PHP >= 5.4
 
-## Author
-Michael Spiss: [GitHub](https://github.com/michaelspiss)
-
 ## License
 MIT
