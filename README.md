@@ -10,7 +10,7 @@ A trait to implement the Multiton design pattern without any dependencies.
 $ composer require michaelspiss/multiton
 ```
 ## Basic Usage
-One line is enough to turn a class into a multiton:
+One line is enough to turn a class (called DatabaseAccess only for demonstration purposes) into a multiton:
 ```php
 <?php
 
